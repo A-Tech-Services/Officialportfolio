@@ -1,0 +1,17 @@
+
+
+
+#headbanner{
+    background-color: rgb(8, 8, 66);
+}
+
+.text-white{
+    background-color: #787A91;
+}
+
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
