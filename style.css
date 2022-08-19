@@ -1,17 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 
-
-#headbanner{
-    background-color: rgb(8, 8, 66);
+.showcase{
+    height: 70vh;
+    background-image: url("/image/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em;
 }
 
-.text-white{
-    background-color: #787A91;
+.showcasetext{
+    margin: auto;
+    margin-top: 10em;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta{
+    width: 15em;
 }
 
 
-@media(min-width: 768px){
-    .news-input{
-        width: 50%;
-    }
+.about{
+    margin-top: 8em;
 }
+
+.about h1::after{
+    content:" ";
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 4px;
+    width: 55px;
+    background-color: #6C757D;
+}
+
+
+.ourservices{
+    background-color: #6C757D;
+}
+
+.service{
+    margin-top: 10em;
+    padding: 5em;
+}
+

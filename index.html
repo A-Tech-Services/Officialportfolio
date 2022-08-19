@@ -17,30 +17,38 @@
 
     <!-- css style sheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <!-- Navbar -->
-    <div class="section p-5">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <div class="section p-2 mx-3">
+        <nav class="navbar navbar-expand-lg bg-white">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+                <!-- atech logo -->
+              <img src="/image/atech.png" alt="Atech Logo" width="120">
+
+              <!-- Hamburger while on smalll screen -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
+              <!-- Menus -->
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#aboutus">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#contactus">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -48,6 +56,75 @@
           </nav>
     </div>
 
+    <!-- Carousel -->
+    <section>
+        <div class="container-fluid showcase">
+            <div class="text-white text-center showcasetext">
+                <h1>Welcome to A.tech</h1>
+                <p>We are one of the best tech company out there in africa
+                    that provide quality services for our customers.
+                </p>
+
+                <button class="btn btn-outline-danger p-3 cta"> Contact Us</button>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- About us Section -->
+    <section>
+        <div class="container text-center about">
+            <h1 class="text-secondary mb-3">About Us</h1>
+
+            <p>Atech Services is a world class provider of business, enterprise solutions and IT support services across different sectors which was founded in the year 2020. 
+                A.tech mandates premium service delivery based on excellent application of technology by experienced resources.</p>
+        </div>
+    </section>
+
+
+
+    <!-- Services section -->
+    <section class="ourservices">
+        <div class="container service">
+
+            <h1 class="text-center text-white mb-5">Our Services</h1>
+            <div class="row">
+    
+                <!-- col 1 -->
+                <div class="col-md-4 text-center">
+                    <div class="card p-3">
+                        <div class="h1 mt-3"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="card-title fw-bold">Web Development</div>
+                        <p class="card-text">You can call on us whenever you are ready to put your business online by creating a quality website.</p>
+                        <a href="#" class="btn btn-primary">Enquiries</a>
+                    </div>
+                </div>
+    
+    
+                <!-- col 2 -->
+                <div class="col-md-4 text-center">
+                    <div class="card p-3">
+                        <div class="h1 mt-3"><i class="fa-solid fa-pen-nib"></i></div>
+                        <div class="card-title fw-bold">User Interphase Design</div>
+                        <p class="card-text">We have a UI/UX team that is ready to create a friendly user interphase designs for your projects.</p>
+                        <a href="#" class="btn btn-primary">Enquiries</a>
+                    </div>
+                </div>
+    
+    
+                <!-- col 3 -->
+                <div class="col-md-4 text-center">
+                    <div class="card p-3">
+                        <div class="h1 mt-3"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="card-title fw-bold">Branding</div>
+                        <p class="card-text">Our Branding team are always available to give your business the best and quality branding.</p>
+                        <a href="#" class="btn btn-primary">Enquiries</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
