@@ -47,3 +47,18 @@ h1{
     padding: 5em;
 }
 
+.service h1::after{
+    content:" ";
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 4px;
+    width: 55px;
+    background-color: #ffffff;
+}
+
+.card a{
+    background-color: #001C5B;
+    color: white;
+}
+
