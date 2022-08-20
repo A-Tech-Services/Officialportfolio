@@ -83,6 +83,26 @@ h1{
 
 .contactus{
     margin-top: 8em;
-    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.contactus h1::after{
+    content:" ";
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 4px;
+    width: 55px;
+    background-color: #ffffff;
+}
+
+.page-footer{
+    background-color: #001C5B;
+    margin-top: 2em;
+    padding: 2em;
 }
 
